@@ -32,10 +32,10 @@ body {
 }
 
 .badge {
-  background: #E2584D;
   color: white;
   font-size: 14px;
   padding: 2px 10px;
+  background-color: rgb(208, 56, 56);
 }
 
 #user-label {
@@ -73,7 +73,7 @@ body {
 
 .choice:hover {
   cursor: pointer;
-  background: #24272E;
+  background: rgb(234, 234, 234);
 }
 
 #action-message {
@@ -81,4 +81,19 @@ body {
   color: white;
   font-weight: bold;
   font-size: 30px;
+}
+
+.green-glow {
+  border: 8px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+  border: 8px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.brown-glow {
+  border: 8px solid #b76004;
+  box-shadow: 0 0 10px #b36807;
 }
